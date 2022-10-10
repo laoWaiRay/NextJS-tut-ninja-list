@@ -12,7 +12,7 @@ export default function NotFound() {
     setTimeout(() => {
       router.push("/");
     }, 5000)
-  }, []);
+  }, [router]);
 
   return (
     <div className='notFound'>
